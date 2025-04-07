@@ -1,10 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import Container from 'react-bootstrap/Container'
-import Nav from 'react-bootstrap/Nav'
-import Navbar from 'react-bootstrap/Navbar'
-import NavDropdown from 'react-bootstrap/NavDropdown'
 import Head from './components/Head'
 import Accueil from './components/Accueil'
 import APropos from './components/Apropos'
@@ -17,14 +13,14 @@ function App() {
   return (
     <>
       <Head />
-      <div>
+      <Container>
         <Accueil />
         <APropos />
         <Projets />
         <Formation />
         <Competances />
         <Contact />
-      </div>
+      </Container>
     </>  
   );
 }
