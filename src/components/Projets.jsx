@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Projets = () => {
   return (
     <div className="projets-container">

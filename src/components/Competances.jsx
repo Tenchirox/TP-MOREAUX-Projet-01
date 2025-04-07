@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Competances = () => {
   return (
     <div className="Competances-container">

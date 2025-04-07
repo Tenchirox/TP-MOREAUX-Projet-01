@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Formation = () => {
   return (
     <div className="formation-container">
