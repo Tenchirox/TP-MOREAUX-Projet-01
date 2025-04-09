@@ -12,7 +12,7 @@ const Head = () => {
           <Navbar.Brand href="#home">
               <img
                 alt=""
-                src="./assets/1726670578708.jpg"
+                src="/1726670578708.jpg"
                 width="70"
                 height="70"
                 className="logo"
