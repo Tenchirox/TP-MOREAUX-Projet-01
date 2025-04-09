@@ -91,3 +91,24 @@ section {
     padding: 2rem 1rem;
   }
 }*/
+
+/* Ajoutez ce style pour les placeholders */
+::placeholder {
+  color: rgba(0, 0, 0, 0.6) !important;
+  opacity: 1 !important;
+}
+
+/* Pour Firefox */
+::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.6) !important;
+  opacity: 1 !important;
+}
+
+/* Pour les thèmes sombres */
+[data-bs-theme="dark"] ::placeholder {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+[data-bs-theme="dark"] ::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.6) !important;
+}

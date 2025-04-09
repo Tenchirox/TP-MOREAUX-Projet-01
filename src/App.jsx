@@ -7,39 +7,26 @@ import Projets from './components/Projets'
 import Formation from './components/Formation'
 import Competances from './components/Competances'
 import Contact from './components/Contact'
+import footer from './components/footer'
 import './App.css'
 
 function App() {
   return (
-    <div className="app-wrapper">
+    <div>
       <Head />
-      <Container fluid className="main-content">
-        <section className="section-primary">
-          <Accueil />
-        </section>
-
-        <section className="section-light">
-          <Row>
-            <Col md={6}>
-              <APropos />
-            </Col>
-            <Col md={6}>
-              <Competances />
-            </Col>
-          </Row>
-        </section>
-
-        <section className="section-primary">
-          <Projets />
-        </section>
-
-        <section className="section-light">
-          <Formation />
-        </section>
-
-        <section className="section-primary">
-          <Contact />
-        </section>
+      <Container>
+        <Accueil />
+        <APropos />
+        <Projets />
+        <Row className="g-4 py-5">
+          <Col md={6}>
+            <Formation />
+          </Col>
+          <Col md={6}>
+            <Competances />
+          </Col>
+        </Row>
+        <Contact />
       </Container>
     </div>
   );

@@ -6,7 +6,7 @@ const Accueil = () => {
     <div className="accueil-container">
       <header className="accueil-header">
         <div className="d-flex justify-content-between align-items-center">
-          <h1>Bienvenue</h1>
+          <h2>Bienvenue</h2>
           <ThemeSwitcher />
         </div>
       </header>
@@ -23,16 +23,10 @@ const Accueil = () => {
             <p>Développement web et solutions informatiques</p>
           </div>
           
-          <div className="content-item">
-            <h3>Passions</h3>
-            <p>Impression 3D et gyroroue</p>
-          </div>
         </section>
       </main>
 
-      <footer className="accueil-footer">
-        <p>&copy; 2025 Kevin MOREAUX</p>
-      </footer>
+
     </div>
   );
 };

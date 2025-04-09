@@ -6,10 +6,12 @@ const ThemeSwitcher = () => {
   
   const themes = [
     'Darkly',
+    'Quartz',
+    'Cyborg',
+    'Solar',
     'Flatly',
     'Lux',
     'Minty',
-    'Quartz',
     'Superhero',
     'Vapor',
     'Zephyr',

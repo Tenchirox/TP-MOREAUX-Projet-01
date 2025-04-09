@@ -1,37 +1,33 @@
+import React from 'react';
+import { Card } from 'react-bootstrap';
+
 const Competances = () => {
+  const skills = [
+    <h5>Front :</h5>,
+    'HTML/CSS',
+    'JavaScript',
+    'React',
+    'PHP',
+    <br/>,
+    <h5>Back :</h5>,
+    'SQL',
+    'Python',
+    'Node.js'
+  ];
+
   return (
-    <div className="Competances-container">
-      <h2>Mes Compétences</h2>
-      <div className="skills-grid">
-        <div className="skill-category">
-          <h3>Frontend</h3>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>React</li>
-          </ul>
-        </div>
-        <div className="skill-category">
-          <h3>Backend</h3>
-          <ul>
-            <li>Node.js</li>
-            <li>Python</li>
-            <li>SQL</li>
-          </ul>
-        </div>
-        <div className="skill-category">
-          <h3>Outils</h3>
-          <ul>
-            <li>Git</li>
-            <li>VS Code</li>
-            <li>Docker</li>
-            <li>PostgreSQL</li>
-            <li>MariaDB</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    <Card className="h-100">
+      <Card.Body>
+        <Card.Title className="text-center mb-4"><h4>Compétences</h4></Card.Title>
+        <ul className="list-unstyled">
+          {skills.map((skill, index) => (
+            <li key={index} className="mb-3">
+              {skill}
+            </li>
+          ))}
+        </ul>
+      </Card.Body>
+    </Card>
   );
 };
 
