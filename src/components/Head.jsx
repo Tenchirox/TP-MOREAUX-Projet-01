@@ -2,7 +2,6 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-// Supprimez l'import de l'image car elle est dans public
 
 const Head = () => {
   return (
@@ -13,7 +12,7 @@ const Head = () => {
           <Navbar.Brand href="#home">
               <img
                 alt="Profile"
-                src="/1726670578708.jpg"
+                src="/imgs/1726670578708.jpg"
                 width="70"
                 height="70"
                 className="logo"

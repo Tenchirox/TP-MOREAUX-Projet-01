@@ -10,7 +10,7 @@ const Projets = () => {
       <Row className="g-4">
         <Col md={6}>
           <Card className="h-100">
-            <Card.Img variant="top" src={impression3d} alt="Impression 3D" />
+            <Card.Img variant="top" src="/imgs/3D (1).png" alt="Impression 3D" />
             <Card.Body>
               <Card.Title>Impression 3D</Card.Title>
               <Card.Text>
@@ -27,7 +27,7 @@ const Projets = () => {
         
         <Col md={6}>
           <Card className="h-100">
-            <Card.Img variant="top" src={gyroroue} alt="Gyroroue" />
+            <Card.Img variant="top" src="/imgs/gyroroue.jpg" alt="Gyroroue" />
             <Card.Body>
               <Card.Title>Gyroroue</Card.Title>
               <Card.Text>
