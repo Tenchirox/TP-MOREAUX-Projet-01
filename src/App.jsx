@@ -19,10 +19,10 @@ function App() {
         <APropos />
         
         <Row className="g-4 py-5">
-          <Col md={6}>
+          <Col xs={12} sm={12} md={6}>
             <Formation />
           </Col>
-          <Col md={6}>
+          <Col xs={12} sm={12} md={6}>
             <Competances />
           </Col>
         </Row>
