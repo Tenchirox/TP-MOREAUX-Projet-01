@@ -1,5 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import 'bootstrap/dist/css/bootstrap.min.css' // Ajoutez cette ligne
 import './index.css'
 // L'import du thème est maintenant géré dynamiquement par ThemeSwitcher
 import App from './App.jsx'

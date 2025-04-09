@@ -25,7 +25,8 @@ const ThemeSwitcher = () => {
     const link = document.createElement('link');
     link.id = `theme-${theme}`;
     link.rel = 'stylesheet';
-    link.href = `/src/assets/bootstrap.min.${theme}.css`;
+    // Utiliser le chemin correct pour le développement et la production
+    link.href = `${window.location.origin}/themes/bootstrap.min.${theme}.css`;
     
     // Désactiver les source maps pour éviter les erreurs
     link.setAttribute('data-sourcemap', 'false');
