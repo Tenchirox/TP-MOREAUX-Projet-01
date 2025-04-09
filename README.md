@@ -1,12 +1,45 @@
-# React + Vite
+# TP React.js - Portfolio Personnel
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ce projet est un travail pratique réalisé dans le cadre du cours React.js. Il s'agit d'un portfolio personnel présentant mes compétences, formations et passions.
 
-Currently, two official plugins are available:
+## Fonctionnalités
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Design Responsive** : Compatible avec tous les appareils
+- **Thèmes Multiples** : Possibilité de changer le thème de l'interface
+- **Sections Principales** :
+  - Accueil
+  - À propos
+  - Compétences
+  - Formation
+  - Projets/Passions
+  - Contact
 
-## Expanding the ESLint configuration
+## Technologies Utilisées
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Bootstrap / React-Bootstrap
+- CSS personnalisé
+- Vite (outil de build)
+
+## Structure du Projet
+
+- `src/components/` : Composants React
+- `src/assets/` : Fichiers CSS des thèmes
+- `public/imgs/` : Images et ressources
+
+## Fonctionnalités Notables
+
+- Galerie d'images pour les projets d'impression 3D
+- Effet de transition sur les images au survol
+- Sélecteur de thème dynamique
+- Mise en page responsive avec Bootstrap
+
+## Installation et Démarrage
+
+```bash
+# Installation des dépendances
+npm install
+
+# Démarrage du serveur de développement
+npm run dev
+```
