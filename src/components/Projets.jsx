@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-import impression3d from '../assets/3D (1).png'; // Assurez-vous que ce fichier existe
-import gyroroue from '../assets/gyroroue.jpg'; // Assurez-vous que ce fichier existe
+
 
 const Projets = () => {
   return (
