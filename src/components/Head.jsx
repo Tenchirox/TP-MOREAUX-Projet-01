@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+// Supprimez l'import de l'image car elle est dans public
 
 const Head = () => {
   return (
@@ -11,7 +12,7 @@ const Head = () => {
           <Col className="d-flex justify-content-center">
           <Navbar.Brand href="#home">
               <img
-                alt=""
+                alt="Profile"
                 src="/1726670578708.jpg"
                 width="70"
                 height="70"
