@@ -1,33 +1,30 @@
 const Apropos = () => {
   return (
     <div className="apropos-container">
-      <h1>About Us</h1>
+      <h1>À propos</h1>
+      <br/>
       <div className="content">
-        <section className="mission">
-          <h2>Our Mission</h2>
-          <p>Add your mission statement here</p>
-        </section>
-        
-        <section className="team">
-          <h2>Our Team</h2>
-          <div className="team-members">
-            {/* Add team member components here */}
+        <section className="moi">
+          <h2>Mon Parcours</h2>
+          <br/>
+          <div className="mavie">
+            <p>Passionné d'informatique depuis mon plus jeune âge, j'ai développé des compétences variées dans le domaine du développement web et les nouvelles technologies.</p>
           </div>
         </section>
 
         <section className="values">
-          <h2>Our Values</h2>
+          <h2>Mes Valeurs</h2>
           <ul>
-            <li>Value 1</li>
-            <li>Value 2</li>
-            <li>Value 3</li>
+            <li>Innovation</li>
+            <li>Qualité</li>
+            <li>Partage de connaissances</li>
           </ul>
         </section>
 
         <section className="contact">
-          <h2>Contact Us</h2>
-          <p>Email: example@email.com</p>
-          <p>Phone: (123) 456-7890</p>
+          <h2>Me contacter</h2>
+          <p>Email: <a href="mailto:depaninfo54@gmail.com">depaninfo54@gmail.com</a></p>
+          <p>Téléphone: +33 6 82 23 85 13</p>
         </section>
       </div>
     </div>

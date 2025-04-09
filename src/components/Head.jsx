@@ -1,51 +1,28 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 const Head = () => {
   return (
-    <>
-      <Navbar className="bg-body-tertiary">
-        <Container>
-          <Navbar.Brand href="#home">Brand link</Navbar.Brand>
-        </Container>
-      </Navbar>
-      <br />
-      <Navbar className="bg-body-tertiary">
-        <Container>
-          <Navbar.Brand>Brand text</Navbar.Brand>
-        </Container>
-      </Navbar>
-      <br />
-      <Navbar className="bg-body-tertiary">
-        <Container>
+    <Navbar className="bg-primary navbar-dark">
+      <Container>
+        <Row className="w-100 align-items-center">
+          <Col className="d-flex justify-content-center">
           <Navbar.Brand href="#home">
-            <img
-              src="/img/logo.svg"
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-              alt="React Bootstrap logo"
-            />
-          </Navbar.Brand>
-        </Container>
-      </Navbar>
-      <br />
-      <Navbar className="bg-body-tertiary">
-        <Container>
-          <Navbar.Brand href="#home">
-            <img
-              alt=""
-              src="/img/logo.svg"
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-            />{' '}
-            React Bootstrap
-          </Navbar.Brand>
-        </Container>
-      </Navbar>
-    </>
+              <img
+                alt=""
+                src="./src/assets/1726670578708.jpg"
+                width="70"
+                height="70"
+                className="logo"
+              />{' '}
+              Kevin MOREAUX
+            </Navbar.Brand>  
+          </Col>
+        </Row>
+      </Container>
+    </Navbar>
   );
 };
 
