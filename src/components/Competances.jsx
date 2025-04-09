@@ -12,7 +12,12 @@ const Competances = () => {
     <h5>Back :</h5>,
     'SQL',
     'Python',
-    'Node.js'
+    'Node.js',
+    <br/>,
+    <h5>Autres :</h5>,
+    'Git',
+    'Linux',
+    'Docker'
   ];
 
   return (

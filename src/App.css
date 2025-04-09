@@ -112,3 +112,38 @@ section {
 [data-bs-theme="dark"] ::-moz-placeholder {
   color: rgba(255, 255, 255, 0.6) !important;
 }
+
+.image-hover-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.image-hover-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 15px;
+  transition: opacity 2s ease-in-out;
+}
+
+.primary-image {
+  opacity: 1;
+  z-index: 1;
+}
+
+.hover-image {
+  opacity: 0;
+  z-index: 2;
+}
+
+.image-hover-container:hover .primary-image {
+  opacity: 0;
+}
+
+.image-hover-container:hover .hover-image {
+  opacity: 1;
+}

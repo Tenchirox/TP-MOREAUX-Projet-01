@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "update-gallery": "node scripts/generateGalleryConfig.js"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -27,6 +28,20 @@
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
+    "image-size": "^2.0.2",
     "vite": "^6.2.0"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tenchirox/TP-MOREAUX-Projet-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tenchirox/TP-MOREAUX-Projet-01/issues"
+  },
+  "homepage": "https://github.com/Tenchirox/TP-MOREAUX-Projet-01#readme"
 }

@@ -1,12 +1,7 @@
 import { RowsPhotoAlbum } from "react-photo-album";
-import { Modal, Button } from "react-bootstrap";
+import { Modal } from "react-bootstrap";
+import { galleryImages } from "../config/galleryConfig";
 import "react-photo-album/rows.css";
-
-const photos = [
-    { src: "imgs/3D (1).png", width: 1200, height: 900 }, 
-    { src: "imgs/3D (2).png", width: 1200, height: 900 },  
-    { src: "imgs/3D (4).png", width: 1200, height: 900 },
-];
 
 const Gallery = ({ show, handleClose }) => {
   return (
@@ -15,7 +10,7 @@ const Gallery = ({ show, handleClose }) => {
         <Modal.Title>Galerie d'impressions 3D</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <RowsPhotoAlbum photos={photos} />
+        <RowsPhotoAlbum photos={galleryImages} />
       </Modal.Body>
     </Modal>
   );

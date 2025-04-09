@@ -17,7 +17,7 @@ const Projets = () => {
             <div style={{ height: '400px', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#f8f9fa' }}>
               <Card.Img 
                 variant="top" 
-                src="/imgs/3D (1).png" 
+                src="/imgs/3D/3D (1).png" 
                 alt="Impression 3D"
                 style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain', padding: '15px' }}
               />
@@ -33,7 +33,7 @@ const Projets = () => {
                   variant="primary" 
                   onClick={handleGalleryOpen}
                 >
-                  Voir les modèles
+                  Voir certains modèles
                 </Button>
               </div>
             </Card.Body>
@@ -42,12 +42,28 @@ const Projets = () => {
         
         <Col md={6}>
           <Card className="h-100">
-            <div style={{ height: '400px', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#f8f9fa' }}>
-              <Card.Img 
-                variant="top" 
+            <div className="image-hover-container" style={{ height: '400px', backgroundColor: '#f8f9fa' }}>
+              <img 
                 src="/imgs/gyroroue.jpg" 
                 alt="Gyroroue"
-                style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain', padding: '15px' }}
+                className="primary-image"
+                style={{ 
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'contain',
+                  padding: '15px'
+                }}
+              />
+              <img 
+                src="/imgs/MoiSurGyroroue.png" 
+                alt="Moi sur Gyroroue"
+                className="hover-image"
+                style={{ 
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'contain',
+                  padding: '15px'
+                }}
               />
             </div>
             <Card.Body>
