@@ -17,7 +17,7 @@ function App() {
       <Container>
         <Accueil />
         <APropos />
-        <Projets />
+        
         <Row className="g-4 py-5">
           <Col md={6}>
             <Formation />
@@ -26,6 +26,7 @@ function App() {
             <Competances />
           </Col>
         </Row>
+        <Projets />
         <Contact />
         <Footer />
       </Container>
