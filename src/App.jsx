@@ -7,7 +7,7 @@ import Projets from './components/Projets'
 import Formation from './components/Formation'
 import Competances from './components/Competances'
 import Contact from './components/Contact'
-import footer from './components/footer'
+import Footer from './components/Footer'
 import './App.css'
 
 function App() {
@@ -27,6 +27,7 @@ function App() {
           </Col>
         </Row>
         <Contact />
+        <Footer />
       </Container>
     </div>
   );

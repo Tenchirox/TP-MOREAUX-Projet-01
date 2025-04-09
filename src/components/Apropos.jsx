@@ -13,12 +13,7 @@ const Apropos = () => {
               <Card.Text>
                 Passionné d'informatique depuis mon plus jeune âge, j'ai développé des compétences variées dans le domaine du développement et les nouvelles technologies.
               </Card.Text>
-              <Card.Title className="mt-4">Mes Valeurs et qualités</Card.Title>
-              <ul className="list-unstyled">
-                <li>• Innovation</li>
-                <li>• Adaptation aux changements</li>
-                <li>• Partage de connaissances</li>
-              </ul>
+              
             </Card.Body>
           </Card>
         </Col>
@@ -26,11 +21,13 @@ const Apropos = () => {
         <Col md={6}>
           <Card className="h-100">
             <Card.Body>
-              <Card.Title>Me contacter</Card.Title>
-              <Card.Text>
-                <p>Email: <a href="mailto:depaninfo54@gmail.com">depaninfo54@gmail.com</a></p>
-                <p>Téléphone: +33 6 82 23 85 13</p>
-              </Card.Text>
+            <Card.Title className="mt-4">Mes Valeurs et qualités</Card.Title>
+              <ul className="list-unstyled">
+                <li>• Innovation</li>
+                <li>• Adaptation aux changements</li>
+                <li>• Partage de connaissances</li>
+              </ul>
+              
             </Card.Body>
           </Card>
         </Col>
