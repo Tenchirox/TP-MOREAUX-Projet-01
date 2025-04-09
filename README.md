@@ -16,10 +16,11 @@ Ce projet est un travail pratique réalisé dans le cadre du cours React.js. Il 
 
 ## Technologies Utilisées
 
+- Vite (outil de build)
 - React.js
 - Bootstrap / React-Bootstrap
 - CSS personnalisé
-- Vite (outil de build)
+
 
 ## Structure du Projet
 
