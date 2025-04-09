@@ -82,47 +82,49 @@ const Contact = () => {
           
           {/* Formulaire de contact */}
           <Form ref={form} onSubmit={handleSubmit}>
-            {/* Champ pour le nom */}
-            <Form.Group className="mb-3">
-              <Form.Label>Nom:</Form.Label>
-              <Form.Control
-                type="text"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                required
-                placeholder="Entrez votre nom"
-              />
+            <Form.Group as={Row} className="mb-3">
+              <Form.Label column sm={2}>Nom:</Form.Label>
+              <Col sm={10}>
+                <Form.Control
+                  type="text"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  required
+                  placeholder="Entrez votre nom"
+                />
+              </Col>
             </Form.Group>
 
-            {/* Champ pour l'email */}
-            <Form.Group className="mb-3">
-              <Form.Label>Email:</Form.Label>
-              <Form.Control
-                type="email"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                required
-                placeholder="Entrez votre email"
-              />
+            <Form.Group as={Row} className="mb-3">
+              <Form.Label column sm={2}>Email:</Form.Label>
+              <Col sm={10}>
+                <Form.Control
+                  type="email"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  required
+                  placeholder="Entrez votre email"
+                />
+              </Col>
             </Form.Group>
 
-            {/* Zone de texte pour le message */}
-            <Form.Group className="mb-4">
-              <Form.Label>Message:</Form.Label>
-              <Form.Control
-                as="textarea"
-                name="message"
-                value={formData.message}
-                onChange={handleChange}
-                required
-                rows={5}
-                placeholder="Votre message"
-              />
+            <Form.Group as={Row} className="mb-4">
+              <Form.Label column sm={2}>Message:</Form.Label>
+              <Col sm={10}>
+                <Form.Control
+                  as="textarea"
+                  name="message"
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
+                  rows={5}
+                  placeholder="Votre message"
+                />
+              </Col>
             </Form.Group>
 
-            {/* Bouton d'envoi pleine largeur */}
             <div className="d-grid">
               <Button 
                 variant="primary" 

@@ -8,15 +8,15 @@ const Apropos = () => {
           <h2>Mon Parcours</h2>
           <br/>
           <div className="mavie">
-            <p>Passionné d'informatique depuis mon plus jeune âge, j'ai développé des compétences variées dans le domaine du développement web et les nouvelles technologies.</p>
+            <p>Passionné d'informatique depuis mon plus jeune âge, j'ai développé des compétences variées dans le domaine du développement et les nouvelles technologies.</p>
           </div>
         </section>
 
         <section className="values">
-          <h2>Mes Valeurs</h2>
+          <h2>Mes Valeurs et qualités</h2>
           <ul>
             <li>Innovation</li>
-            <li>Qualité</li>
+            <li>Adaptation aux changements</li>
             <li>Partage de connaissances</li>
           </ul>
         </section>
